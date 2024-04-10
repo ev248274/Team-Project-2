@@ -85,7 +85,6 @@ void add_spaces_between_terms(string& str) {
 			}
 			else if (*it == ')') {
 				result_string += ' ' + s;
-
 			}
 			// Operators with a possible length of 2
 			else if (*it == '>') {
@@ -100,7 +99,7 @@ void add_spaces_between_terms(string& str) {
 					result_string += " <= ";
 					it++;
 				}
-				else { result_string += "<"; }
+				else { result_string += s; }
 			}
 			else if (*it == '=') {
 				result_string += " == ";
@@ -124,6 +123,7 @@ void add_spaces_between_terms(string& str) {
 			}
 		}
 	}
+	result_string += " ";
 	// Update our string
 	str = result_string;
 	std::cout << result_string;
