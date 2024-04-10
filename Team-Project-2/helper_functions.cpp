@@ -64,42 +64,67 @@ string infix_to_postfix(const string& infix_exp) {
 	return oss.str();
 }
 
-// FIXME <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
 /*
 This function will add spaces between every term, operator, and parentheses
 @param str: the string to format
 */
 void add_spaces_between_terms(string& str) {
-	string result_string = "";
-	string curr_number = ""; // Numbers can have more than 1 digit, so we'll save all digits in the current number
+	string result_string = " ";
 
-	result_string += ' '; // Leading space
+	for (auto it = str.begin(); it != str.end(); ++it) {
+		string s(1, *it);
+		if (*it != ' ') {
+			// Numbers
+			if (isdigit(*it)) {
+				result_string += s;
+			}
+			// Parentheses
+			else if (*it == '(') {
+				result_string += s + ' ';
+			}
+			else if (*it == ')') {
+				result_string += ' ' + s;
 
-	for (string::iterator it = str.begin(); it != str.end(); ++it) {
-		// Numbers
-		if (isdigit(*it)) {
-			curr_number += *it;
-		}
-		// Parentheses
-		else if (*it == '(') {
-			result_string += curr_number;
-			curr_number = "";
-			result_string += (' ' + *it + ' ');
-		}
-		else if (*it == ')') {
-			result_string += curr_number;
-			curr_number = "";
-			result_string += (' ' + *it + ' ');
-
-		}
-		// Operators
-		else {
-			result_string += curr_number;
-			curr_number = "";
-			result_string += (' ' + *it + ' ');
+			}
+			// Operators with a possible length of 2
+			else if (*it == '>') {
+				if (*(it + 1) == '=') {
+					result_string += " >= ";
+					it++;
+				}
+				else { result_string += s; }
+			}
+			else if (*it == '<') {
+				if (*(it + 1) == '=') {
+					result_string += " <= ";
+					it++;
+				}
+				else { result_string += "<"; }
+			}
+			else if (*it == '=') {
+				result_string += " == ";
+				it++;
+			}
+			else if (*it == '!') {
+				result_string += " != ";
+				it++;
+			}
+			else if (*it == '&') {
+				result_string += " && ";
+				it++;
+			}
+			else if (*it == '|') {
+				result_string += " || ";
+				it++;
+			}
+			// Operators with a length of 1
+			else {
+				result_string += ' ' + s + ' ';
+			}
 		}
 	}
-
 	// Update our string
 	str = result_string;
+	std::cout << result_string;
 }
