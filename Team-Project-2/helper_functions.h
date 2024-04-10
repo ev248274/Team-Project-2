@@ -2,9 +2,13 @@
 #define HELPER_FUNCTIONS_H
 
 #include <string>
+#include <sstream>
+#include <stack>
 
-using std::string;
+using namespace std;
 
-unsigned int get_precedence(const char);
+unsigned int get_precedence(const string&);
+
+string infix_to_postfix(const string&);
 
 #endif
