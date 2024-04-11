@@ -1,3 +1,4 @@
+#include "Evaluator.h"
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -17,4 +18,6 @@ void test_case_2() {
 	getline(input_file, infix_expression);
 
 	input_file.close();
+	Evaluator test_2;
+	test_2.eval_infix(infix_expression);
 }

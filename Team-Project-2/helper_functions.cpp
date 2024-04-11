@@ -56,14 +56,14 @@ void add_spaces_between_terms(string& str) {
 					result_string += " >= ";
 					it++;
 				}
-				else { result_string += s; }
+				else { result_string += " > "; }
 			}
 			else if (*it == '<') {
 				if (*(it + 1) == '=') {
 					result_string += " <= ";
 					it++;
 				}
-				else { result_string += s; }
+				else { result_string += " < "; }
 			}
 			else if (*it == '=') {
 				result_string += " == ";

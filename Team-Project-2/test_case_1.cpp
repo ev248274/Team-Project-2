@@ -1,3 +1,4 @@
+#include "Evaluator.h"
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -16,4 +17,6 @@ void test_case_1() {
 	getline(input_file, infix_expression);
 
 	input_file.close();
+	Evaluator test_1;
+	cout << test_1.eval_infix(infix_expression) << endl;
 }

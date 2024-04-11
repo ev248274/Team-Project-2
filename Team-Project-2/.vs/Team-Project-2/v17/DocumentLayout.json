@@ -15,12 +15,20 @@
       "RelativeMoniker": "D:0:0:{809AF014-086F-42FA-B15E-ACD1D9F0A23E}|Team-Project-2.vcxproj|solutionrelative:helper_functions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{809AF014-086F-42FA-B15E-ACD1D9F0A23E}|Team-Project-2.vcxproj|C:\\Users\\jmasi\\OneDrive\\Desktop\\SCC\\current\\C\u002B\u002B\\Group_Projects\\Team-Project-2\\Team-Project-2\\Evaluator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{809AF014-086F-42FA-B15E-ACD1D9F0A23E}|Team-Project-2.vcxproj|solutionrelative:Evaluator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{809AF014-086F-42FA-B15E-ACD1D9F0A23E}|Team-Project-2.vcxproj|C:\\Users\\jmasi\\OneDrive\\Desktop\\SCC\\current\\C\u002B\u002B\\Group_Projects\\Team-Project-2\\Team-Project-2\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{809AF014-086F-42FA-B15E-ACD1D9F0A23E}|Team-Project-2.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{809AF014-086F-42FA-B15E-ACD1D9F0A23E}|Team-Project-2.vcxproj|C:\\Users\\jmasi\\OneDrive\\Desktop\\SCC\\current\\C\u002B\u002B\\Group_Projects\\Team-Project-2\\Team-Project-2\\Evaluator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{809AF014-086F-42FA-B15E-ACD1D9F0A23E}|Team-Project-2.vcxproj|solutionrelative:Evaluator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{809AF014-086F-42FA-B15E-ACD1D9F0A23E}|Team-Project-2.vcxproj|C:\\Users\\jmasi\\OneDrive\\Desktop\\SCC\\current\\C\u002B\u002B\\Group_Projects\\Team-Project-2\\Team-Project-2\\test_case_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{809AF014-086F-42FA-B15E-ACD1D9F0A23E}|Team-Project-2.vcxproj|solutionrelative:test_case_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809AF014-086F-42FA-B15E-ACD1D9F0A23E}|Team-Project-2.vcxproj|C:\\Users\\jmasi\\OneDrive\\Desktop\\SCC\\current\\C\u002B\u002B\\Group_Projects\\Team-Project-2\\Team-Project-2\\test_case_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{809AF014-086F-42FA-B15E-ACD1D9F0A23E}|Team-Project-2.vcxproj|solutionrelative:test_case_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,7 +48,7 @@
               "RelativeDocumentMoniker": "Evaluator.cpp",
               "ToolTip": "C:\\Users\\jmasi\\OneDrive\\Desktop\\SCC\\current\\C\u002B\u002B\\Group_Projects\\Team-Project-2\\Team-Project-2\\Evaluator.cpp",
               "RelativeToolTip": "Evaluator.cpp",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABsAAAAYAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACQAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-11T03:02:18.931Z",
               "IsPinned": true,
@@ -48,17 +56,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Main.cpp",
               "DocumentMoniker": "C:\\Users\\jmasi\\OneDrive\\Desktop\\SCC\\current\\C\u002B\u002B\\Group_Projects\\Team-Project-2\\Team-Project-2\\Main.cpp",
               "RelativeDocumentMoniker": "Main.cpp",
               "ToolTip": "C:\\Users\\jmasi\\OneDrive\\Desktop\\SCC\\current\\C\u002B\u002B\\Group_Projects\\Team-Project-2\\Team-Project-2\\Main.cpp",
               "RelativeToolTip": "Main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-07T19:45:23.408Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -66,7 +73,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
+              "Title": "test_case_2.cpp",
+              "DocumentMoniker": "C:\\Users\\jmasi\\OneDrive\\Desktop\\SCC\\current\\C\u002B\u002B\\Group_Projects\\Team-Project-2\\Team-Project-2\\test_case_2.cpp",
+              "RelativeDocumentMoniker": "test_case_2.cpp",
+              "ToolTip": "C:\\Users\\jmasi\\OneDrive\\Desktop\\SCC\\current\\C\u002B\u002B\\Group_Projects\\Team-Project-2\\Team-Project-2\\test_case_2.cpp",
+              "RelativeToolTip": "test_case_2.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-11T06:33:38.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "test_case_1.cpp",
+              "DocumentMoniker": "C:\\Users\\jmasi\\OneDrive\\Desktop\\SCC\\current\\C\u002B\u002B\\Group_Projects\\Team-Project-2\\Team-Project-2\\test_case_1.cpp",
+              "RelativeDocumentMoniker": "test_case_1.cpp",
+              "ToolTip": "C:\\Users\\jmasi\\OneDrive\\Desktop\\SCC\\current\\C\u002B\u002B\\Group_Projects\\Team-Project-2\\Team-Project-2\\test_case_1.cpp",
+              "RelativeToolTip": "test_case_1.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-11T06:32:07.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Evaluator.h",
               "DocumentMoniker": "C:\\Users\\jmasi\\OneDrive\\Desktop\\SCC\\current\\C\u002B\u002B\\Group_Projects\\Team-Project-2\\Team-Project-2\\Evaluator.h",
               "RelativeDocumentMoniker": "Evaluator.h",
@@ -74,8 +105,7 @@
               "RelativeToolTip": "Evaluator.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-11T03:02:00.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T03:02:00.563Z"
             },
             {
               "$type": "Document",
@@ -85,10 +115,9 @@
               "RelativeDocumentMoniker": "helper_functions.cpp",
               "ToolTip": "C:\\Users\\jmasi\\OneDrive\\Desktop\\SCC\\current\\C\u002B\u002B\\Group_Projects\\Team-Project-2\\Team-Project-2\\helper_functions.cpp",
               "RelativeToolTip": "helper_functions.cpp",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACoAAAAvAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABsAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-10T17:57:26.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T17:57:26.776Z"
             },
             {
               "$type": "Document",
@@ -100,8 +129,7 @@
               "RelativeToolTip": "helper_functions.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-10T17:36:57.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T17:36:57.546Z"
             }
           ]
         }
