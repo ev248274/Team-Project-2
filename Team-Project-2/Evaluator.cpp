@@ -30,15 +30,19 @@ int Evaluator::eval_infix(string& str) {
 
 	while (iss >> token) { 
 		if (isdigit(token.front())) { operands.push(stoi(token)); } // push operand onto stack operands
-		else if (token == "(") { operators.push(token); }
+		else if (token == "-" && (operands.size() == 0)) { // checks for negative numbers in the beginning
+			iss >> token;
+			operands.push(-stoi(token));
+		}
+		else if (token == "(") { operators.push(token); } // checks for parentheses
 		else if (token == ")") {
-			while (operators.top() != "(") {
+			while (operators.top() != "(") { // evaluates every operator within parentheses
 				evaluate_specific_terms(operands, operators.top());
 				operators.pop();
 			}
 			operators.pop();
 		}
-		else {
+		else { // evaluate current operator
 			while (!operators.empty() && operators.top() != "(" && get_precedence(token) <= get_precedence(operators.top())) {
 				evaluate_specific_terms(operands, operators.top());
 				operators.pop();
@@ -46,9 +50,9 @@ int Evaluator::eval_infix(string& str) {
 			operators.push(token);
 		}
 	}
-	while (!operators.empty()) {
+	while (!operators.empty()) { // evaluate every operator
 		evaluate_specific_terms(operands, operators.top());
 		operators.pop();
 	}
-	return operands.top();
+	return operands.top(); // return result
 }

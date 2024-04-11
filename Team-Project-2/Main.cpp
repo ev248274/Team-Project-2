@@ -24,7 +24,8 @@ string get_file() {
 int main() {
 	Evaluator eval;
 	string infix_val = get_file();
-	cout << eval.eval_infix(infix_val) << endl;
+	cout << "Expresion: " << infix_val << endl;
+	cout << "Result: " << eval.eval_infix(infix_val) << endl;
 
 	system("pause");
 	return 0;

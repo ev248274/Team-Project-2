@@ -40,7 +40,7 @@ void add_spaces_between_terms(string& str) {
 		string s(1, *it);
 		if (*it != ' ') {
 			// Numbers
-			if (isdigit(*it) || (*it == '-' && isdigit(*(it + 1)))) {
+			if (isdigit(*it)) {
 				result_string += s;
 			}
 			// Parentheses
