@@ -98,40 +98,40 @@ void evaluate_specific_terms(stack<int>& stk_i, string& str) {
 	stk_i.pop();
 	
 	// supported operators
-	if (str == "+") { stk_i.push(left + right); }
-	if (str == "-") { stk_i.push(left - right); }
-	if (str == "*") { stk_i.push(left * right); }
+	if (str == "+") { stk_i.push(left + right); } // Addition
+	if (str == "-") { stk_i.push(left - right); } // Subtraction
+	if (str == "*") { stk_i.push(left * right); } // Miltiplication 
 	if (str == "/") {
-		if (!right) { throw exception("Divide by zero"); }
+		if (!right) { throw exception("Divide by zero"); } // Checks for division by 0
 		stk_i.push(left / right);
 	}
-	if (str == "^") { stk_i.push(pow(left, right)); }
-	if (str == "%") { stk_i.push(left % right); }
+	if (str == "^") { stk_i.push(pow(left, right)); } // Exponents
+	if (str == "%") { stk_i.push(left % right); } // Modulo
 	if (str == ">") { 
-		if (left > right) { stk_i.push(1); }
+		if (left > right) { stk_i.push(1); } // Greater than 
 		else { stk_i.push(0); }
 	}
 	if (str == ">=") {
-		if (left >= right) { stk_i.push(1); }
+		if (left >= right) { stk_i.push(1); } // Greater than or equal to
 		else { stk_i.push(0); }
 	}
 	if (str == "<") { 
-		if (left < right) { stk_i.push(1); }
+		if (left < right) { stk_i.push(1); } // Less than 
 		else { stk_i.push(0); }
 	}
 	if (str == "<=") { 
-		if (left <= right) { stk_i.push(1); }
+		if (left <= right) { stk_i.push(1); } // Less than or equal to 
 		else { stk_i.push(0); }
 	}
 	if (str == "==") { 
-		if (left == right) { stk_i.push(1); }
+		if (left == right) { stk_i.push(1); } // Equal to
 		else { stk_i.push(0); }
 	}
 	if (str == "!=") { 
-		if (left != right) { stk_i.push(1); }
+		if (left != right) { stk_i.push(1); } // Not equal to
 		else { stk_i.push(0); }
 	}
-	if (str == "&&") { stk_i.push(left && right); } 
-	if (str == "||") { stk_i.push(left || right); } 
+	if (str == "&&") { stk_i.push(left && right); } // Logical AND
+	if (str == "||") { stk_i.push(left || right); } // Logical OR
 
 }
