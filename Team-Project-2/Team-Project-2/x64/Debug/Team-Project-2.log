@@ -1,7 +1,7 @@
 ﻿  Evaluator.cpp
+  Main.cpp
   helper_functions.cpp
 D:\1_GitHub_Projects\School\Team-Project-2\Team-Project-2\Team-Project-2\helper_functions.cpp(108,34): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-  Main.cpp
   test_case_1.cpp
   test_case_2.cpp
   Generating Code...

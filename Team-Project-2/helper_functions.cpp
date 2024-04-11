@@ -91,13 +91,23 @@ void add_spaces_between_terms(string& str) {
 	// Update our string
 	str = result_string;
 }
+
+/*
+This function evaluates any supported binary operator
+Supported operators are:
+
++, -, *, /, ^, >, >=, <, <=, ==, !=, &&, ||
+
+@param stk_i: Mutatable input stack of operands
+@param str: The operator represented as a string
+*/
 void evaluate_specific_terms(stack<int>& stk_i, string& str) {
 	int right = stk_i.top();
 	stk_i.pop();
 	int left = stk_i.top();
 	stk_i.pop();
 	
-	// supported operators
+	// Supported operators
 	if (str == "+") { stk_i.push(left + right); } // Addition
 	if (str == "-") { stk_i.push(left - right); } // Subtraction
 	if (str == "*") { stk_i.push(left * right); } // Miltiplication 
@@ -133,5 +143,4 @@ void evaluate_specific_terms(stack<int>& stk_i, string& str) {
 	}
 	if (str == "&&") { stk_i.push(left && right); } // Logical AND
 	if (str == "||") { stk_i.push(left || right); } // Logical OR
-
 }
