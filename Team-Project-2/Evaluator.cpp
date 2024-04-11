@@ -44,6 +44,7 @@ int Evaluator::eval_infix(string& str) {
 				evaluate_specific_terms(operands, operators.top());
 				operators.pop();
 			}
+			operators.push(token);
 		}
 	}
 	while (!operators.empty()) {
