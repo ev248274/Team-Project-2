@@ -40,7 +40,7 @@ void add_spaces_between_terms(string& str) {
 		string s(1, *it);
 		if (*it != ' ') {
 			// Numbers
-			if (isdigit(*it)) {
+			if (isdigit(*it) || (*it == '-' && isdigit(*(it + 1)))) {
 				result_string += s;
 			}
 			// Parentheses
@@ -107,13 +107,31 @@ void evaluate_specific_terms(stack<int>& stk_i, string& str) {
 	}
 	if (str == "^") { stk_i.push(pow(left, right)); }
 	if (str == "%") { stk_i.push(left % right); }
-	if (str == ">") { stk_i.push(left > right); }
-	if (str == ">=") { stk_i.push(left >= right); }
-	if (str == "<") { stk_i.push(left < right); }
-	if (str == "<=") { stk_i.push(left <= right); }
-	if (str == "==") { stk_i.push(left == right); }
-	if (str == "!=") { stk_i.push(left != right); }
-	if (str == "&&") { stk_i.push(left && right); } // FIXME >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-	if (str == "||") { stk_i.push(left || right); } // FIXME >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+	if (str == ">") { 
+		if (left > right) { stk_i.push(1); }
+		else { stk_i.push(0); }
+	}
+	if (str == ">=") {
+		if (left >= right) { stk_i.push(1); }
+		else { stk_i.push(0); }
+	}
+	if (str == "<") { 
+		if (left < right) { stk_i.push(1); }
+		else { stk_i.push(0); }
+	}
+	if (str == "<=") { 
+		if (left <= right) { stk_i.push(1); }
+		else { stk_i.push(0); }
+	}
+	if (str == "==") { 
+		if (left == right) { stk_i.push(1); }
+		else { stk_i.push(0); }
+	}
+	if (str == "!=") { 
+		if (left != right) { stk_i.push(1); }
+		else { stk_i.push(0); }
+	}
+	if (str == "&&") { stk_i.push(left && right); } 
+	if (str == "||") { stk_i.push(left || right); } 
 
 }

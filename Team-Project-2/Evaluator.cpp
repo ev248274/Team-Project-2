@@ -26,10 +26,9 @@ Evaluates the given string infix expression
 int Evaluator::eval_infix(string& str) {
 	add_spaces_between_terms(str);
 	istringstream iss(str);
-	ostringstream oss(str);
 	string token;
 
-	while (iss >> token) { // FIXME >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+	while (iss >> token) { 
 		if (isdigit(token.front())) { operands.push(stoi(token)); } // push operand onto stack operands
 		else if (token == "(") { operators.push(token); }
 		else if (token == ")") {

@@ -1,5 +1,5 @@
 #include "Evaluator.h"
-
+#include "helper_functions.h"
 #include <iostream>
 #include <fstream>
 #include <string>
