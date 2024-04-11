@@ -29,42 +29,6 @@ unsigned int get_precedence(const string& this_operator) {
 	}
 }
 
-/** Converts an infix expression to postfix expression.
-@param infix_exp: infix expression to convert
-@return: postfix expression converted from the infix expression
-*/
-string infix_to_postfix(const string& infix_exp) {
-	istringstream iss(infix_exp);
-	ostringstream oss;
-	stack<string> stk;
-	string token;
-
-	while (iss >> token) {
-		if (isdigit(token.front())) { oss << ' ' << token; }
-		else if (token == "(") { stk.push(token); }
-		else if (token == ")") {
-			while (stk.top() != "(") {
-				oss << ' ' << stk.top();
-				stk.pop();
-			}
-			stk.pop();
-		}
-		else {
-			while (!stk.empty() && stk.top() != "(" && get_precedence(token) >= get_precedence(stk.top())) {
-				oss << ' ' << stk.top();
-				stk.pop();
-			}
-			stk.push(token);
-		}
-	}
-	while (!stk.empty()) {
-		oss << ' ' << stk.top();
-		stk.pop();
-	}
-	return oss.str();
-}
-
-
 /*
 This function will add spaces between every term, operator, and parentheses
 @param str: the string to format
@@ -126,5 +90,30 @@ void add_spaces_between_terms(string& str) {
 	result_string += " ";
 	// Update our string
 	str = result_string;
-	std::cout << result_string;
+}
+void evaluate_specific_terms(stack<int>& stk_i, string& str) {
+	int right = stk_i.top();
+	stk_i.pop();
+	int left = stk_i.top();
+	stk_i.pop();
+	
+	// supported operators
+	if (str == "+") { stk_i.push(left + right); }
+	if (str == "-") { stk_i.push(left - right); }
+	if (str == "*") { stk_i.push(left * right); }
+	if (str == "/") {
+		if (!right) { throw exception("Divide by zero"); }
+		stk_i.push(left / right);
+	}
+	if (str == "^") { stk_i.push(pow(left, right)); }
+	if (str == "%") { stk_i.push(left % right); }
+	if (str == ">") { stk_i.push(left > right); }
+	if (str == ">=") { stk_i.push(left >= right); }
+	if (str == "<") { stk_i.push(left < right); }
+	if (str == "<=") { stk_i.push(left <= right); }
+	if (str == "==") { stk_i.push(left == right); }
+	if (str == "!=") { stk_i.push(left != right); }
+	if (str == "&&") { stk_i.push(left && right); } // FIXME >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+	if (str == "||") { stk_i.push(left || right); } // FIXME >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
 }

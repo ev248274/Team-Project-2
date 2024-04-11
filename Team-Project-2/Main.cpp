@@ -1,3 +1,5 @@
+#include "Evaluator.h"
+
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -5,8 +7,7 @@
 using namespace std;
 
 /*
-Returns a string with uniform spaces
-@param str: reference to string variable
+Gets string value from file
 */
 string get_file() {
 	string infix_expression;
@@ -21,8 +22,9 @@ string get_file() {
 }
 
 int main() {
-	
+	Evaluator eval;
 	string infix_val = get_file();
+	cout << eval.eval_infix(infix_val) << endl;
 
 	system("pause");
 	return 0;
