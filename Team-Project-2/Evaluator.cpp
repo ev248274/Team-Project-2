@@ -34,7 +34,9 @@ int Evaluator::eval_infix(string& str) {
 			iss >> token;
 			operands.push(-stoi(token));
 		}
-		else if (token == "(") { operators.push(token); } // checks for parentheses
+		else if (token == "(") { 
+			operators.push(token); 
+		} // checks for parentheses
 		else if (token == ")") {
 			while (operators.top() != "(") { // evaluates every operator within parentheses
 				evaluate_specific_terms(operands, operators.top());
