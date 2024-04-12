@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\1_GitHub_Projects\\School\\Team-Project-2\\Team-Project-2\\Team-Project-2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{809AF014-086F-42FA-B15E-ACD1D9F0A23E}|Team-Project-2.vcxproj|D:\\1_GitHub_Projects\\School\\Team-Project-2\\Team-Project-2\\Team-Project-2\\Evaluator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{809AF014-086F-42FA-B15E-ACD1D9F0A23E}|Team-Project-2.vcxproj|solutionrelative:Evaluator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{809AF014-086F-42FA-B15E-ACD1D9F0A23E}|Team-Project-2.vcxproj|D:\\1_GitHub_Projects\\School\\Team-Project-2\\Team-Project-2\\Team-Project-2\\helper_functions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{809AF014-086F-42FA-B15E-ACD1D9F0A23E}|Team-Project-2.vcxproj|solutionrelative:helper_functions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{809AF014-086F-42FA-B15E-ACD1D9F0A23E}|Team-Project-2.vcxproj|D:\\1_GitHub_Projects\\School\\Team-Project-2\\Team-Project-2\\Team-Project-2\\Evaluator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{809AF014-086F-42FA-B15E-ACD1D9F0A23E}|Team-Project-2.vcxproj|solutionrelative:Evaluator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{809AF014-086F-42FA-B15E-ACD1D9F0A23E}|Team-Project-2.vcxproj|D:\\1_GitHub_Projects\\School\\Team-Project-2\\Team-Project-2\\Team-Project-2\\Evaluator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{809AF014-086F-42FA-B15E-ACD1D9F0A23E}|Team-Project-2.vcxproj|solutionrelative:Evaluator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{809AF014-086F-42FA-B15E-ACD1D9F0A23E}|Team-Project-2.vcxproj|D:\\1_GitHub_Projects\\School\\Team-Project-2\\Team-Project-2\\Team-Project-2\\helper_functions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{809AF014-086F-42FA-B15E-ACD1D9F0A23E}|Team-Project-2.vcxproj|solutionrelative:helper_functions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{809AF014-086F-42FA-B15E-ACD1D9F0A23E}|Team-Project-2.vcxproj|D:\\1_GitHub_Projects\\School\\Team-Project-2\\Team-Project-2\\Team-Project-2\\helper_functions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{809AF014-086F-42FA-B15E-ACD1D9F0A23E}|Team-Project-2.vcxproj|solutionrelative:helper_functions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{809AF014-086F-42FA-B15E-ACD1D9F0A23E}|Team-Project-2.vcxproj|D:\\1_GitHub_Projects\\School\\Team-Project-2\\Team-Project-2\\Team-Project-2\\Evaluator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{809AF014-086F-42FA-B15E-ACD1D9F0A23E}|Team-Project-2.vcxproj|solutionrelative:Evaluator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{809AF014-086F-42FA-B15E-ACD1D9F0A23E}|Team-Project-2.vcxproj|D:\\1_GitHub_Projects\\School\\Team-Project-2\\Team-Project-2\\Team-Project-2\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +46,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Evaluator.h",
               "DocumentMoniker": "D:\\1_GitHub_Projects\\School\\Team-Project-2\\Team-Project-2\\Team-Project-2\\Evaluator.h",
               "RelativeDocumentMoniker": "Evaluator.h",
@@ -59,13 +59,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Evaluator.cpp",
               "DocumentMoniker": "D:\\1_GitHub_Projects\\School\\Team-Project-2\\Team-Project-2\\Team-Project-2\\Evaluator.cpp",
               "RelativeDocumentMoniker": "Evaluator.cpp",
               "ToolTip": "D:\\1_GitHub_Projects\\School\\Team-Project-2\\Team-Project-2\\Team-Project-2\\Evaluator.cpp",
               "RelativeToolTip": "Evaluator.cpp",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAADAAAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-11T23:41:12.172Z",
               "EditorCaption": ""
@@ -80,8 +80,7 @@
               "RelativeToolTip": "Main.cpp",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-11T19:38:42.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T19:38:42.463Z"
             },
             {
               "$type": "Document",
@@ -93,8 +92,7 @@
               "RelativeToolTip": "test_case_2.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-11T06:33:38.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T06:33:38.699Z"
             },
             {
               "$type": "Document",
@@ -106,8 +104,7 @@
               "RelativeToolTip": "test_case_1.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-11T06:32:07.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T06:32:07.783Z"
             },
             {
               "$type": "Document",
@@ -124,13 +121,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "helper_functions.cpp",
               "DocumentMoniker": "D:\\1_GitHub_Projects\\School\\Team-Project-2\\Team-Project-2\\Team-Project-2\\helper_functions.cpp",
               "RelativeDocumentMoniker": "helper_functions.cpp",
               "ToolTip": "D:\\1_GitHub_Projects\\School\\Team-Project-2\\Team-Project-2\\Team-Project-2\\helper_functions.cpp",
               "RelativeToolTip": "helper_functions.cpp",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAGcAAAAcAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACQAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-10T17:57:26.776Z",
               "EditorCaption": ""
