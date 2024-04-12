@@ -24,6 +24,7 @@ string get_file() {
 int main() {
 	Evaluator eval; // Calls an instance of the evaluator class
 	string infix_val = get_file();
+
 	cout << "The inputted expression is: " << infix_val << endl;
 	cout << "The result of the input is: " << eval.eval_infix(infix_val) << endl;
 

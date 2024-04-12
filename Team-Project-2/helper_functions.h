@@ -19,5 +19,4 @@ void add_spaces_between_terms(string&);
 // Declaring the evaluate_specific_terms function
 void evaluate_specific_terms(stack<int>&, string&);
 
-
 #endif
